@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="352px" preserveAspectRatio="none" style="width:703px;height:352px;background:#FFFFFF;" version="1.1" viewBox="0 0 703 352" width="703px" zoomAndPan="magnify"><defs/><g><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><g id="elem_Product"><rect codeLine="2" fill="#F1F1F1" height="61.2188" id="Product" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="97.5" y="13"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="49" x="117" y="32.5332">Product</text><line style="stroke:#181818;stroke-width:0.5;" x1="98.5" x2="184.5" y1="40.6094" y2="40.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="98.5" x2="184.5" y1="48.6094" y2="48.6094"/><ellipse cx="108.5" cy="62.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="117.5" y="67.1426">opertion()</text></g><!--MD5=[9e1f217a44db012abe7b922da54c0dd9]
+class ConcreteProduct1--><g id="elem_ConcreteProduct1"><rect codeLine="6" fill="#F1F1F1" height="61.2188" id="ConcreteProduct1" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="7" y="152"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="10" y="171.5332">ConcreteProduct1</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="127" y1="179.6094" y2="179.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="127" y1="187.6094" y2="187.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="13" y="206.1426">string operation()</text></g><!--MD5=[7c2a1f0b305d4b6d9d46d9f16110c367]
+class ConcreteProduct2--><g id="elem_ConcreteProduct2"><rect codeLine="10" fill="#F1F1F1" height="61.2188" id="ConcreteProduct2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="163" y="152"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="166" y="171.5332">ConcreteProduct2</text><line style="stroke:#181818;stroke-width:0.5;" x1="164" x2="283" y1="179.6094" y2="179.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="164" x2="283" y1="187.6094" y2="187.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="169" y="206.1426">string operation()</text></g><!--MD5=[2c589014e840926a718801db2289e0a7]
+class Creator--><g id="elem_Creator"><rect codeLine="17" fill="#F1F1F1" height="83.2188" id="Creator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="327.5" y="141"/><ellipse cx="416.25" cy="157" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M418.4375,158.7656 L414.2969,158.7656 L413.875,159.7969 L414.2969,159.7969 Q414.9063,159.7969 415.1719,160.0313 Q415.4375,160.2656 415.4375,160.6563 Q415.4375,161.0313 415.1719,161.2656 Q414.9063,161.5 414.2969,161.5 L412,161.5 Q411.3906,161.5 411.1406,161.2656 Q410.875,161.0313 410.875,160.6406 Q410.875,160.2656 411.1563,160.0313 Q411.4219,159.7813 412.0469,159.7969 L414.7188,153.1406 L413.6094,153.1406 Q413,153.1406 412.7344,152.9063 Q412.4688,152.6719 412.4688,152.2813 Q412.4688,151.9063 412.7344,151.6719 Q413,151.4375 413.6094,151.4375 L417.2813,151.4375 L420.6719,159.7969 Q421.2656,159.7969 421.4531,159.9375 Q421.8438,160.2031 421.8438,160.6563 Q421.8438,161.0313 421.5781,161.2656 Q421.3281,161.5 420.7188,161.5 L418.4219,161.5 Q417.8125,161.5 417.5469,161.2656 Q417.2813,161.0313 417.2813,160.6406 Q417.2813,160.2656 417.5469,160.0313 Q417.8125,159.7969 418.4219,159.7969 L418.8438,159.7969 L418.4375,158.7656 Z M417.7188,157.0625 L416.3594,153.6875 L414.9844,157.0625 L417.7188,157.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="48" x="436.75" y="162.7285">Creator</text><line style="stroke:#181818;stroke-width:0.5;" x1="328.5" x2="560.5" y1="173" y2="173"/><line style="stroke:#181818;stroke-width:0.5;" x1="328.5" x2="560.5" y1="181" y2="181"/><ellipse cx="338.5" cy="195.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="347.5" y="199.5332">string operation()</text><ellipse cx="338.5" cy="212.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="347.5" y="217.1426">abstract Product factoryMethod()</text></g><g id="elem_GMN8"><path d="M294,6 L294,81.4063 A0,0 0 0 0 294,81.4063 L440.5,81.4063 L444.5,140.82 L448.5,81.4063 L595,81.4063 A0,0 0 0 0 595,81.4063 L595,16 L585,6 L294,6 A0,0 0 0 0 294,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M585,6 L585,16 L595,16 L585,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="300" y="24.4951">the Creator's primary responsibility is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="241" x="300" y="40.8467">not creating products. Usually, it contains</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="300" y="57.1982">some core business logic that relies on</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="280" x="300" y="73.5498">Product objects, returned by the factory method.</text></g><!--MD5=[6c609a9adc44db3b4cb8c6bc8eec83d0]
+class ConcreteCreator1--><g id="elem_ConcreteCreator1"><rect codeLine="29" fill="#F1F1F1" height="61.2188" id="ConcreteCreator1" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="193.5" y="284"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="253.5" y="303.5332">ConcreteCreator1</text><line style="stroke:#181818;stroke-width:0.5;" x1="194.5" x2="426.5" y1="311.6094" y2="311.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="194.5" x2="426.5" y1="319.6094" y2="319.6094"/><ellipse cx="204.5" cy="333.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="213.5" y="338.1426">abstract Product factoryMethod()</text></g><!--MD5=[194b55b1969cc9c47fdba3da1b5dd1ef]
+class ConcreteCreator2--><g id="elem_ConcreteCreator2"><rect codeLine="33" fill="#F1F1F1" height="61.2188" id="ConcreteCreator2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="462.5" y="284"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="522.5" y="303.5332">ConcreteCreator2</text><line style="stroke:#181818;stroke-width:0.5;" x1="463.5" x2="695.5" y1="311.6094" y2="311.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="463.5" x2="695.5" y1="319.6094" y2="319.6094"/><ellipse cx="473.5" cy="333.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="482.5" y="338.1426">abstract Product factoryMethod()</text></g><!--MD5=[3e631a4e6bb7e408c66afd34fbd92e8d]
+reverse link Product to ConcreteProduct1--><g id="link_Product_ConcreteProduct1"><path codeLine="14" d="M115.9,91.9 C105.15,111.8 92.97,134.34 83.53,151.83 " fill="none" id="Product-backto-ConcreteProduct1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="109.78,88.5,125.44,74.23,122.1,95.15,109.78,88.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[74652e2bb7add63ff19c45362af0f0c8]
+reverse link Product to ConcreteProduct2--><g id="link_Product_ConcreteProduct2"><path codeLine="15" d="M169.69,91.59 C181.64,111.57 195.22,134.25 205.74,151.83 " fill="none" id="Product-backto-ConcreteProduct2" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="163.56,94.98,159.29,74.23,175.57,87.79,163.56,94.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4718f0aff278693ef7824cadff599223]
+reverse link Creator to ConcreteCreator1--><g id="link_Creator_ConcreteCreator1"><path codeLine="37" d="M388.09,238.22 C372.07,253.77 355.22,270.12 341.33,283.6 " fill="none" id="Creator-backto-ConcreteCreator1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="383.24,233.18,402.47,224.28,392.99,243.23,383.24,233.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5fd5a0bef2266ecd7a485cb803f826c4]
+reverse link Creator to ConcreteCreator2--><g id="link_Creator_ConcreteCreator2"><path codeLine="38" d="M501.33,238.22 C517.47,253.77 534.45,270.12 548.44,283.6 " fill="none" id="Creator-backto-ConcreteCreator2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="496.4,243.19,486.84,224.28,506.11,233.11,496.4,243.19" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e2becf03a6fd79e834023c6f62a1a72b]
+@startuml
+
+interface Product{
+  +opertion()
+}
+
+class ConcreteProduct1{
+   string operation()
+}
+
+class ConcreteProduct2{
+   string operation()
+}
+
+Product <|.. ConcreteProduct1
+Product <|.. ConcreteProduct2
+
+abstract class Creator {
+  +string operation()
+  +abstract Product factoryMethod()
+}
+
+note top of Creator
+  the Creator's primary responsibility is
+  not creating products. Usually, it contains 
+  some core business logic that relies on 
+  Product objects, returned by the factory method.
+end note
+
+class ConcreteCreator1{
+  +abstract Product factoryMethod()
+}
+
+class ConcreteCreator2{
+  +abstract Product factoryMethod()
+}
+
+Creator <|- - ConcreteCreator1
+Creator <|- - ConcreteCreator2
+
+hide class circle 
+hide interface circle
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 KST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: AU
+--></g></svg>
