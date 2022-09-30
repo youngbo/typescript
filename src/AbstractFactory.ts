@@ -5,57 +5,66 @@
  * concrete classes.
  */
 
-interface AbstractProductA {
-    UsefulFunctionA(): string;
+ export interface AbstractProductA {
+    usefulFunctionA(): string;
 }
 
 class ConcreteProductA1 implements AbstractProductA{
-    UsefulFunctionA(): string {
+    usefulFunctionA(): string {
         return 'The result of the product A1.';   
     }
 }
 
 class ConcreteProductA2 implements AbstractProductA{
-    UsefulFunctionA(): string {
+    usefulFunctionA(): string {
         return 'The result of the product A2.';   
     }
 }
 
-interface AbstractProductB {
-    UsefulFunctionB(): string;
-    UsefulFunctionB(collaborator: AbstractProductA): string;
+export interface AbstractProductB {
+    usefulFunctionB(): string;
+    anotherUsefulFunctionB(collaborator: AbstractProductA): string;
 }
 
 class ConcreteProductB1 implements AbstractProductB{
-    UsefulFunctionB(): string {
+    usefulFunctionB(): string {
         return 'The result of the product B1.';
     }
     anotherUsefulFunctionB(collaborator: AbstractProductA): string {
-        const result = collaborator.UsefulFunctionA();
+        const result = collaborator.usefulFunctionA();
         return `The result of the B1 collaborating with the (${result})`;
     }
 }
 
 class ConcreteProductB2 implements AbstractProductB{
-    UsefulFunctionB(): string {
+    usefulFunctionB(): string {
         return 'The result of the product B2.';
     }
     anotherUsefulFunctionB(collaborator: AbstractProductA): string {
-        const result = collaborator.UsefulFunctionA();
+        const result = collaborator.usefulFunctionA();
         return `The result of the B2 collaborating with the (${result})`;
     }
 }
 
-interface AbstractFactory{
-    CreateProductA(): AbstractProductA;
-    CreateProductB(): AbstractProductB;
+export interface AbstractFactory{
+    createProductA(): AbstractProductA;
+    createProductB(): AbstractProductB;
 }
 
-class ConcreteFactory implements AbstractFactory{
-    CreateProductA(): AbstractProductA {
+export class ConcreteFactory1 implements AbstractFactory{
+    createProductA(): AbstractProductA {
         return new ConcreteProductA1();
     }
-    CreateProductB(): AbstractProductB {
+    createProductB(): AbstractProductB {
         return new ConcreteProductB1();
+    }
+}
+
+export class ConcreteFactory2 implements AbstractFactory{
+    createProductA(): AbstractProductA {
+        return new ConcreteProductA2();
+    }
+    createProductB(): AbstractProductB {
+        return new ConcreteProductB2();
     }
 }
