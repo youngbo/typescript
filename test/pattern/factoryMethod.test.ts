@@ -1,4 +1,4 @@
-import {Creator, ConcreteCreator1,ConcreteCreator2 } from '../../src/FactoryPattern'
+import {Creator, ConcreteCreator1,ConcreteCreator2 } from '../../src/FactoryMethod'
 
 describe('FactoryMethod test', () => {
 
