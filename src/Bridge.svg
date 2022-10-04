@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="335px" preserveAspectRatio="none" style="width:501px;height:335px;background:#FFFFFF;" version="1.1" viewBox="0 0 501 335" width="501px" zoomAndPan="magnify"><defs/><g><!--MD5=[f7e5aaedf1b25aad9b447cdf8dba2a20]
+class Abstraction--><g id="elem_Abstraction"><rect codeLine="2" fill="#F1F1F1" height="78.8281" id="Abstraction" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="231" x="54.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="134.5" y="26.5332">Abstraction</text><line style="stroke:#181818;stroke-width:0.5;" x1="55.5" x2="284.5" y1="34.6094" y2="34.6094"/><ellipse cx="65.5" cy="48.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="74.5" y="53.1426">IImplementation _implementation</text><line style="stroke:#181818;stroke-width:0.5;" x1="55.5" x2="284.5" y1="60.2188" y2="60.2188"/><ellipse cx="65.5" cy="74.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="74.5" y="78.752">string Feature()</text></g><!--MD5=[088b70f627ca28c8359a997d6c19ab61]
+class RefinedAbstraction--><g id="elem_RefinedAbstraction"><rect codeLine="7" fill="#F1F1F1" height="61.2188" id="RefinedAbstraction" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="7" y="146"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="10" y="165.5332">RefinedAbstraction</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="132" y1="173.6094" y2="173.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="132" y1="181.6094" y2="181.6094"/><ellipse cx="18" cy="195.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="27" y="200.1426">string Feature()</text></g><!--MD5=[e08ce63ce03ca15cdedb932049b3b116]
+class IImplementation--><g id="elem_IImplementation"><rect codeLine="11" fill="#F1F1F1" height="61.2188" id="IImplementation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="168" y="146"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="100" x="221" y="165.5332">IImplementation</text><line style="stroke:#181818;stroke-width:0.5;" x1="169" x2="373" y1="173.6094" y2="173.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="169" x2="373" y1="181.6094" y2="181.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="174" y="200.1426">string FeatureImplementation()</text></g><!--MD5=[a18032cca35c2fb8dc9646f1f1305880]
+class ConcreteImplementationA--><g id="elem_ConcreteImplementationA"><rect codeLine="15" fill="#F1F1F1" height="61.2188" id="ConcreteImplementationA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="47" y="267"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="69" y="286.5332">ConcreteImplementationA</text><line style="stroke:#181818;stroke-width:0.5;" x1="48" x2="252" y1="294.6094" y2="294.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="48" x2="252" y1="302.6094" y2="302.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="53" y="321.1426">string FeatureImplementation()</text></g><!--MD5=[ff4cb830d3981c7ab21547c318538d26]
+class ConcreteImplementationB--><g id="elem_ConcreteImplementationB"><rect codeLine="19" fill="#F1F1F1" height="61.2188" id="ConcreteImplementationB" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="288" y="267"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="310" y="286.5332">ConcreteImplementationB</text><line style="stroke:#181818;stroke-width:0.5;" x1="289" x2="493" y1="294.6094" y2="294.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="289" x2="493" y1="302.6094" y2="302.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="294" y="321.1426">string FeatureImplementation()</text></g><!--MD5=[9b8a9978f0a7251db28d3c357ee97f99]
+reverse link Abstraction to RefinedAbstraction--><g id="link_Abstraction_RefinedAbstraction"><path codeLine="23" d="M127.35,102.09 C115.63,117.1 103.35,132.81 93.18,145.83 " fill="none" id="Abstraction-backto-RefinedAbstraction" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="121.9,97.7,139.73,86.25,132.93,106.32,121.9,97.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[91834d42b4b9608be957513e68e3c195]
+reverse link Abstraction to IImplementation--><g id="link_Abstraction_IImplementation"><path codeLine="24" d="M208.95,96.86 C221.99,113.39 236.11,131.28 247.58,145.83 " fill="none" id="Abstraction-backto-IImplementation" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="200.58,86.25,201.1603,93.4377,208.0183,95.6666,207.438,88.4789,200.58,86.25" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[79ac6e6d645dcfad36662bc93a14453e]
+reverse link IImplementation to ConcreteImplementationA--><g id="link_IImplementation_ConcreteImplementationA"><path codeLine="25" d="M226.13,221.63 C210.84,236.67 194.12,253.11 180.26,266.74 " fill="none" id="IImplementation-backto-ConcreteImplementationA" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="221.61,216.25,240.78,207.22,231.43,226.24,221.61,216.25" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e6c1e7895b5d92cabc5fac4992e931ea]
+reverse link IImplementation to ConcreteImplementationB--><g id="link_IImplementation_ConcreteImplementationB"><path codeLine="26" d="M315.5,221.63 C330.67,236.67 347.24,253.11 360.99,266.74 " fill="none" id="IImplementation-backto-ConcreteImplementationB" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="310.24,226.28,300.97,207.22,320.1,216.33,310.24,226.28" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[86748bc8ab0bd6b505f5ba127712b953]
+@startuml
+
+class Abstraction{
+    +IImplementation _implementation
+    +string Feature()
+}
+
+class RefinedAbstraction {
+    +string Feature()
+}
+
+interface IImplementation{
+    string FeatureImplementation()
+}
+
+class ConcreteImplementationA {
+    string FeatureImplementation()
+}
+
+class ConcreteImplementationB {
+    string FeatureImplementation()
+}
+
+Abstraction <|- - RefinedAbstraction
+Abstraction *- - IImplementation
+IImplementation <|.. ConcreteImplementationA
+IImplementation <|.. ConcreteImplementationB
+
+
+hide interface circle
+hide class circle
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 KST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: AU
+--></g></svg>
