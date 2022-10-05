@@ -23,7 +23,7 @@ export class ConcreteImplementationB implements IImplementation{
     }
 }
 
-export class  Abstraction {
+class  Abstraction {
     protected implementation :IImplementation;
     constructor(implementation :IImplementation){
         this.implementation = implementation;

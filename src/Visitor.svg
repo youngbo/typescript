@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="246px" preserveAspectRatio="none" style="width:1075px;height:246px;background:#FFFFFF;" version="1.1" viewBox="0 0 1075 246" width="1075px" zoomAndPan="magnify"><defs/><g><!--MD5=[5e98e5fdf5788c3d53e00853896ffc69]
+class IComponent--><g id="elem_IComponent"><rect codeLine="2" fill="#F1F1F1" height="76.3125" id="IComponent" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="192" x="64" y="16"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="129.5" y="33.457">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="77" x="121.5" y="50.627">IComponent</text><line style="stroke:#181818;stroke-width:0.5;" x1="65" x2="255" y1="58.7031" y2="58.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="65" x2="255" y1="66.7031" y2="66.7031"/><ellipse cx="75" cy="81.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="84" y="85.2363">void Accept(IVisitor visitor)</text></g><!--MD5=[8d00ff1971fbe9cbd7ec9b0a9e790637]
+class ConcreteComponentA--><g id="elem_ConcreteComponentA"><rect codeLine="6" fill="#F1F1F1" height="78.8281" id="ConcreteComponentA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="192" x="7" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="33" y="180.5332">ConcreteComponentA</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="198" y1="188.6094" y2="188.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="198" y1="196.6094" y2="196.6094"/><ellipse cx="18" cy="210.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="27" y="215.1426">void Accept(IVisitor visitor)</text><ellipse cx="18" cy="228.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="27" y="232.752">string ExclusiveMethodA()</text></g><!--MD5=[e9e768e7635ee02b8c105c725da883e3]
+class ConcreteComponentB--><g id="elem_ConcreteComponentB"><rect codeLine="11" fill="#F1F1F1" height="78.8281" id="ConcreteComponentB" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="192" x="234" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="260" y="180.5332">ConcreteComponentB</text><line style="stroke:#181818;stroke-width:0.5;" x1="235" x2="425" y1="188.6094" y2="188.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="235" x2="425" y1="196.6094" y2="196.6094"/><ellipse cx="245" cy="210.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="254" y="215.1426">void Accept(IVisitor visitor)</text><ellipse cx="245" cy="228.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="254" y="232.752">string ExclusiveMethodB()</text></g><!--MD5=[86b19e389e6533d37437225d9ce7df37]
+class IVisitor--><g id="elem_IVisitor"><rect codeLine="16" fill="#F1F1F1" height="93.9219" id="IVisitor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="286" x="404" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="516.5" y="24.457">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="43" x="525.5" y="41.627">IVisitor</text><line style="stroke:#181818;stroke-width:0.5;" x1="405" x2="689" y1="49.7031" y2="49.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="405" x2="689" y1="57.7031" y2="57.7031"/><ellipse cx="415" cy="72.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="424" y="76.2363">void Visit(ConcreteComponentA element)</text><ellipse cx="415" cy="89.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="424" y="93.8457">void Visit(ConcreteComponentB element)</text></g><!--MD5=[b87b34b2ac37480ea8f28c1399a93c02]
+class ConcreteVisitor1--><g id="elem_ConcreteVisitor1"><rect codeLine="21" fill="#F1F1F1" height="78.8281" id="ConcreteVisitor1" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="286" x="461" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="551.5" y="180.5332">ConcreteVisitor1</text><line style="stroke:#181818;stroke-width:0.5;" x1="462" x2="746" y1="188.6094" y2="188.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="462" x2="746" y1="196.6094" y2="196.6094"/><ellipse cx="472" cy="210.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="481" y="215.1426">void Visit(ConcreteComponentA element)</text><ellipse cx="472" cy="228.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="481" y="232.752">void Visit(ConcreteComponentB element)</text></g><!--MD5=[b41111110bb8402dc96a2933421753b6]
+class ConcreteVisitor2--><g id="elem_ConcreteVisitor2"><rect codeLine="26" fill="#F1F1F1" height="78.8281" id="ConcreteVisitor2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="286" x="782" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="872.5" y="180.5332">ConcreteVisitor2</text><line style="stroke:#181818;stroke-width:0.5;" x1="783" x2="1067" y1="188.6094" y2="188.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="783" x2="1067" y1="196.6094" y2="196.6094"/><ellipse cx="793" cy="210.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="802" y="215.1426">void Visit(ConcreteComponentA element)</text><ellipse cx="793" cy="228.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="802" y="232.752">void Visit(ConcreteComponentB element)</text></g><!--MD5=[6536f23182892fbe59170aa2d9da26fc]
+reverse link IComponent to ConcreteComponentA--><g id="link_IComponent_ConcreteComponentA"><path codeLine="31" d="M137.91,111.01 C131.33,127.69 124.26,145.59 118.23,160.9 " fill="none" id="IComponent-backto-ConcreteComponentA" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="131.47,108.25,145.32,92.21,144.49,113.39,131.47,108.25" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f633b24db96e45a6c13758e508318103]
+reverse link IComponent to ConcreteComponentB--><g id="link_IComponent_ConcreteComponentB"><path codeLine="32" d="M219.24,105.35 C240.67,123.57 264.53,143.85 284.59,160.9 " fill="none" id="IComponent-backto-ConcreteComponentB" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="214.48,110.5,203.78,92.21,223.55,99.83,214.48,110.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f45c415539568c8e28c083b7666b24e4]
+reverse link IVisitor to ConcreteVisitor1--><g id="link_IVisitor_ConcreteVisitor1"><path codeLine="33" d="M572.72,120.19 C578.16,134 583.74,148.15 588.66,160.6 " fill="none" id="IVisitor-backto-ConcreteVisitor1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="566.02,122.29,565.19,101.12,579.04,117.15,566.02,122.29" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b700cc6d61e66d3e0f7a3933b8c503a5]
+reverse link IVisitor to ConcreteVisitor2--><g id="link_IVisitor_ConcreteVisitor2"><path codeLine="34" d="M686.32,108.26 C731.97,125.71 781.79,144.75 824.05,160.91 " fill="none" id="IVisitor-backto-ConcreteVisitor2" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="683.56,114.7,667.38,101.02,688.56,101.62,683.56,114.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fd4ca82a3b47e43514b8b602448bbc12]
+link IVisitor to ConcreteComponentA--><g id="link_IVisitor_ConcreteComponentA"><path codeLine="35" d="M403.85,100.21 C345.5,118.8 277.45,140.7 216,161 C212.04,162.31 208,163.65 203.93,165.01 " fill="none" id="IVisitor-to-ConcreteComponentA" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="199.13,166.61,208.9339,167.5498,203.872,165.0246,206.3972,159.9626,199.13,166.61" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[81269102c3d7f665fffbb2fbcb8a60a3]
+link IVisitor to ConcreteComponentB--><g id="link_IVisitor_ConcreteComponentB"><path codeLine="36" d="M477.74,101.12 C450.31,119.39 419.01,140.23 392.3,158.01 " fill="none" id="IVisitor-to-ConcreteComponentB" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="388.06,160.84,397.7699,159.1913,392.2246,158.0731,393.3428,152.5278,388.06,160.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ec9a78ee7e315679d66a7aa5176a7b8d]
+@startuml
+
+interface IComponent <<interface>> {
+  +void Accept(IVisitor visitor)
+}
+
+class ConcreteComponentA {
+  +void Accept(IVisitor visitor)
+  +string ExclusiveMethodA()
+}
+
+class ConcreteComponentB {
+  +void Accept(IVisitor visitor)
+  +string ExclusiveMethodB()
+}
+
+interface IVisitor <<interface>> {
+  +void Visit(ConcreteComponentA element)
+  +void Visit(ConcreteComponentB element)
+}
+
+class ConcreteVisitor1 {
+  +void Visit(ConcreteComponentA element)
+  +void Visit(ConcreteComponentB element)
+}
+
+class ConcreteVisitor2 {
+  +void Visit(ConcreteComponentA element)
+  +void Visit(ConcreteComponentB element)
+}
+
+IComponent <|.. ConcreteComponentA
+IComponent <|.. ConcreteComponentB
+IVisitor <|.. ConcreteVisitor1
+IVisitor <|.. ConcreteVisitor2
+IVisitor ..>ConcreteComponentA
+IVisitor ..>ConcreteComponentB
+
+hide class circle
+hide interface circle
+
+skinparam genericDisplay old
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 KST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: AU
+--></g></svg>
