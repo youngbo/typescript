@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="352px" preserveAspectRatio="none" style="width:413px;height:352px;background:#FFFFFF;" version="1.1" viewBox="0 0 413 352" width="413px" zoomAndPan="magnify"><defs/><g><!--MD5=[6754354365917abf8f1a56af1b7e344c]
+class Context--><g id="elem_Context"><rect codeLine="2" fill="#F1F1F1" height="96.4375" id="Context" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="220" x="96" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="182" y="26.5332">Context</text><line style="stroke:#181818;stroke-width:0.5;" x1="97" x2="315" y1="34.6094" y2="34.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104" y="45.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="116" y="53.1426">Strategy strategy</text><line style="stroke:#181818;stroke-width:0.5;" x1="97" x2="315" y1="60.2188" y2="60.2188"/><ellipse cx="107" cy="74.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="116" y="78.752">void SetStrategy(strategy)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104" y="89.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="116" y="96.3613">string DoSomeBusinessLogic()</text></g><!--MD5=[73189cd78e88e455bfa813ec57c7827f]
+class IStrategy--><g id="elem_IStrategy"><rect codeLine="8" fill="#F1F1F1" height="61.2188" id="IStrategy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="115" y="163"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="57" x="177.5" y="182.5332">IStrategy</text><line style="stroke:#181818;stroke-width:0.5;" x1="116" x2="296" y1="190.6094" y2="190.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="116" x2="296" y1="198.6094" y2="198.6094"/><ellipse cx="126" cy="212.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="135" y="217.1426">string doAlgorithm(data);</text></g><!--MD5=[f7619b48b8694459c04eed7e4378fd59]
+class ConcreteStrategyA--><g id="elem_ConcreteStrategyA"><rect codeLine="12" fill="#F1F1F1" height="61.2188" id="ConcreteStrategyA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="7" y="284"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="38" y="303.5332">ConcreteStrategyA</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="188" y1="311.6094" y2="311.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="188" y1="319.6094" y2="319.6094"/><ellipse cx="18" cy="333.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="27" y="338.1426">string doAlgorithm(data);</text></g><!--MD5=[46ce5a71c42e69bc603a1b295a67d4da]
+class ConcreteStrategyB--><g id="elem_ConcreteStrategyB"><rect codeLine="16" fill="#F1F1F1" height="61.2188" id="ConcreteStrategyB" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="224" y="284"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="255" y="303.5332">ConcreteStrategyB</text><line style="stroke:#181818;stroke-width:0.5;" x1="225" x2="405" y1="311.6094" y2="311.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="225" x2="405" y1="319.6094" y2="319.6094"/><ellipse cx="235" cy="333.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="244" y="338.1426">string doAlgorithm(data);</text></g><!--MD5=[66b185e8e4fd70f02fdecdde7ea28acc]
+reverse link Context to IStrategy--><g id="link_Context_IStrategy"><path codeLine="20" d="M206,116.59 C206,132.58 206,149.15 206,162.71 " fill="none" id="Context-backto-IStrategy" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="206,103.36,202,109.36,206,115.36,210,109.36,206,103.36" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[77dd30f223c900ece6e340f5c002638f]
+reverse link IStrategy to ConcreteStrategyA--><g id="link_IStrategy_ConcreteStrategyA"><path codeLine="21" d="M165.52,239.1 C151.99,254.01 137.25,270.25 125,283.74 " fill="none" id="IStrategy-backto-ConcreteStrategyA" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="160.4,234.33,179.03,224.22,170.77,243.74,160.4,234.33" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[17a9bb582754d3418a57bee59642ad20]
+reverse link IStrategy to ConcreteStrategyB--><g id="link_IStrategy_ConcreteStrategyB"><path codeLine="22" d="M246.86,239.1 C260.51,254.01 275.39,270.25 287.75,283.74 " fill="none" id="IStrategy-backto-ConcreteStrategyB" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="241.57,243.7,233.22,224.22,251.89,234.24,241.57,243.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4df517469a1e618edbf9da967157f547]
+@startuml
+
+class Context {
+  -Strategy strategy
+  +void SetStrategy(strategy)
+  -string DoSomeBusinessLogic()
+}
+
+interface IStrategy{
+  +string doAlgorithm(data);
+}
+
+class ConcreteStrategyA {
+  +string doAlgorithm(data);
+}
+
+class ConcreteStrategyB {
+  +string doAlgorithm(data);
+}
+
+Context o- -IStrategy
+IStrategy <|.. ConcreteStrategyA
+IStrategy <|.. ConcreteStrategyB
+
+hide class circle 
+hide interface circle
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 KST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: AU
+--></g></svg>
