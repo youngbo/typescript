@@ -6,7 +6,9 @@ npm install --save-dev ts-jest supertest @types/jest jest typescript
 
 
 References : 
+https://www.manning.com/books/typescript-quickly
 https://yonghyunlee.gitlab.io/temp_post/jest/
 https://refactoring.guru/design-patterns
 https://app.pluralsight.com/library/courses/getting-started-typescript/table-of-contents
 https://stackoverflow.com/questions/35470511/setting-up-tsconfig-with-spec-test-folder
+
